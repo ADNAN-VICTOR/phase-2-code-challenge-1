@@ -10,7 +10,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div className="input-group flex-nowrap">
+    <div className="input-group flex-nowrap bg- m-2" >
     <span class="input-group-text" id="addon-wrapping">Search</span>
     <input id="Search"
       type="text"

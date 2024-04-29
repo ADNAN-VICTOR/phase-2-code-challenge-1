@@ -6,11 +6,16 @@
 
 h2{
   color: white;
-  align-items: center;
-  justify-items: center;
+  text-align: center;
 }
 
+
+
 #heading{
-  background-color: indigo;
   margin-bottom: 2%;
+}
+
+label{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }

@@ -22,14 +22,16 @@ const TransactionForm = ({ onSubmit }) => {
   };
 
   return (
-    <form className="d-flex justify-content-evenly mx-auto p-2 mt-5 mb-5" onSubmit={handleSubmit}>
-      <label>Date</label>
+    <form className="d-flex justify-content-evenly mx-auto p-2 mt-5 mb-5 bg-warning" onSubmit={handleSubmit}>
+      <div>
+      <label>Date:</label>
       <input  
         type="date"
         placeholder="Date"
         value={date}
         onChange={(e) => setDate(e.target.value)}
       />
+      </div>
       <input
         type="text"
         placeholder="Description"
@@ -49,7 +51,7 @@ const TransactionForm = ({ onSubmit }) => {
         value={category}
         onChange={(e) => setCategory(e.target.value)}
       />
-      <button type="submit">Add Transaction</button>
+      <button className="btn btn-success" type="submit">Add Transaction</button>
     </form>
   );
 };

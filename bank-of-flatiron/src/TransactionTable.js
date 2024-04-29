@@ -1,22 +1,22 @@
 import React from 'react';
-
 const TransactionTable = ({ transactions }) => {
   return (
-    <table className="table table-bordered">
-      <thead>
+    <table className="table table-bordered table-warning">
+     
+      <thead >
         <tr>
+          <th>Date</th>
           <th>Description</th>
           <th>Amount</th>
-          <th>Date</th>
           <th>Category</th>
         </tr>
       </thead>
       <tbody>
         {transactions.map((transaction, index) => (
           <tr key={index}>
+            <td>{transaction.date}</td>
             <td>{transaction.description}</td>
             <td>{transaction.amount}</td>
-            <td>{transaction.date}</td>
             <td>{transaction.category}</td>
           </tr>
         ))}
