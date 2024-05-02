@@ -15,7 +15,7 @@ Git
 
 ### Installation instruction
 ```
-Git clone git@github.com:ADNAN-VICTOR/PHASE-1-INDEPENDENT-PROJECT.git
+Git clone git@github.com:ADNAN-VICTOR/phase-2-code-challenge-1.git
 ```
 
 ## Technologies used
